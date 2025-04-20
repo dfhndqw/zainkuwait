@@ -1,0 +1,159 @@
+/* Reset & Global */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    background-color: #ffffff; /* اللون العام للخلفية */
+    font-family: 'Nunito', sans-serif; /* تطبيق خط Nunito */
+  }
+  
+  /* Header */
+  header {
+    margin: 0;
+    padding: 0;
+    height: 0px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('cssall/cdc/zainlog.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  /* شعار زين */
+  #imgzain {
+    position: relative;
+    top: 2px;
+    left: -20px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* محاذاة النص */
+  #tex {
+    direction: rtl;    /* يجعل اتجاه النص من اليمين */
+    text-align: right; /* يضبط محاذاة النص لليمين */
+
+  }
+  
+  /* مساعدة للّهُوية */
+  .logo {
+    width: 40px;
+    margin-left: 270px;
+  }
+  
+  /* الحاوية الرئيسية */
+  .container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* العناوين الفرعية */
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* حقول الإدخال المشتركة */
+  .input-field,
+  .custom-amount input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* الترجمة التوضيحية */
+  .subtitle {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  /* بطاقات الخيارات */
+  .plan {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1d1336;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s ease;
+  }
+  
+  .plan.selected {
+    border: 2px solid #ffffff;
+    background-color: #000000;
+  }
+  
+  .plan img {
+    width: 60px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 15px;
+  }
+  
+  .plan-info {
+    flex: 1;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .validity {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  /* حقل المبلغ المخصص */
+  .custom-amount {
+    margin-top: 20px;
+  }
+  
+  .custom-amount label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .validity{
+
+    margin-top: -19px;
+  }
+  #goToNextPageBtn{
+
+    margin-bottom: 25px;
+    width: 180px;
+  }
+
+
+  #result{
+
+    margin-top: -60px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif; /* تطبيق خط Nunito */
+    font-size: 20px;
+
+  }

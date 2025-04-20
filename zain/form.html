@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>اختيار المبلغ</title>
+  <link rel="stylesheet" href="form1.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <script src="main.js/all.js/kave.js/forms.js" defer></script>
+
+  <style>
+    #goToNextPageBtn {
+      display: none; /* الزر مخفي في البداية */
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #4B0082;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <header id="hedar">
+      <img id="imgzain" src="cssall/cdc/zainlog.svg" alt="زين العرض" />
+    </header>
+  </div>
+
+  <div class="container">
+    <!-- حقل المبلغ المدخل يدويًا -->
+    <div class="custom-amount">
+      <label for="custom">أو أدخل مبلغاً آخر</label>
+      <input
+        type="number"
+        id="custom"
+        placeholder="المبلغ د.ك"
+        oninput="updateAmount()"
+      />
+    </div>
+
+    <p class="subtitle">المبلغ د.ك</p>
+
+    <!-- عرض المبلغ الإجمالي والنصوص -->
+    <div id="result">
+      <p id="amountText"></p>
+      <p id="discountText"></p>
+      <p id="finalAmountText"></p>
+    </div>
+
+    <!-- الزر لانتقال إلى الصفحة التالية -->
+    <button id="goToNextPageBtn" onclick="goToNextPage()">التالي</button>
+
+    <!-- خيارات المبلغ -->
+    <div class="plan" data-value="2" onclick="selectAmount(2)">
+      <img src="cssall/cdc/zainlog.svg" alt="2 د.ك" />
+      <div class="plan-info">
+        <div class="price">2 د.ك</div>
+        <div class="validity">صالح لغاية 10 أيام</div>
+      </div>
+    </div>
+
+    <div class="plan" data-value="3" onclick="selectAmount(3)">
+      <img src="cssall/cdc/zainlog.svg" alt="3 د.ك" />
+      <div class="plan-info">
+        <div class="price">3 د.ك</div>
+        <div class="validity">صالح لغاية 15 يوم</div>
+      </div>
+    </div>
+
+    <div class="plan" data-value="5" onclick="selectAmount(5)">
+      <img src="cssall/cdc/zainlog.svg" alt="5 د.ك" />
+      <div class="plan-info">
+        <div class="price">5 د.ك</div>
+        <div class="validity">صالح لغاية 30 يوم</div>
+      </div>
+    </div>
+
+    <div class="plan" data-value="10" onclick="selectAmount(10)">
+      <img src="cssall/cdc/zainlog.svg" alt="10 د.ك" />
+      <div class="plan-info">
+        <div class="price">10 د.ك</div>
+        <div class="validity">صالح لغاية 90 يوم</div>
+      </div>
+    </div>
+
+    <div class="plan" data-value="20" onclick="selectAmount(20)">
+      <img src="cssall/cdc/zainlog.svg" alt="20 د.ك" />
+      <div class="plan-info">
+        <div class="price">20 د.ك</div>
+        <div class="validity">صالحة لغاية 180 يوم</div>
+      </div>
+    </div>
+
+    <div class="plan" data-value="25" onclick="selectAmount(25)">
+      <img src="cssall/cdc/zainlog.svg" alt="25 د.ك" />
+      <div class="plan-info">
+        <div class="price">25 د.ك</div>
+        <div class="validity">صالح لغاية 365 يوم</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+   
+
+  </script>
+
+</body>
+</html>

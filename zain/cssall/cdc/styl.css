@@ -1,0 +1,470 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: 'Nunito', sans-serif;
+
+  }
+  #hedar {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+  }
+  #imgzain {
+    position: absolute;
+    top: 32px;
+    left: -20px;
+    width: 150px;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+  }
+  
+  header {
+    background-image: url('imgonli.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #tex {
+    direction: rtl;
+    text-align: right;
+  }
+  #divbox {
+    margin-bottom: 100px;
+    height: 120px;
+    align-items: flex-start;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  }
+  #boxform {
+    margin-top: 60px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  #textbot {
+    margin-top: 50px;
+  }
+  #billForm, #rechargeForm {
+    margin-top: -40px;
+    background-color: #ffffff;
+  }
+  input {
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  #selct {
+    width: 390px;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    height: 50px;
+    background-color: #ffffff;
+  }
+  #phoneLabel, #billBox {
+    margin-top: 30px;
+  }
+  #botone {
+    margin-top: 100px;
+  }
+  #billBox {
+    background-color: #ffffff;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  #amountText, #discountText, #finalText {
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  #boxomm {
+    margin-top: -30px;
+  }
+  #labeel, #selct {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  #hedar {
+    width: 100%;
+    padding: auto;
+    height: 100px;
+  }
+  #imgzain {
+    width: 130px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    
+  }
+  #tex {
+    color: #000;
+    font-size: 25px;
+    font-weight: normal;
+    margin-right: 20px;
+  }
+  #sss {
+    margin-top: -30px;
+    width: 100%;
+    padding: auto;
+  }
+  #rechargeForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+  #inputii, #labeel {
+    width: 100%;
+  }
+  #botonnn {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #labeel {
+    width: 100%;
+  }
+  #textfrom {
+    margin-top: -120px;
+  }
+  #rechargeBox {
+    display: none;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    color: #1f2937;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    width: 100%;
+  }
+  #hayahh {
+    margin-top: -100px;
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+  }
+  .input-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  .input-field {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: box-shadow 0.2s ease;
+  }
+  .input-field:focus {
+    border-color: #ec4899;
+    box-shadow: 0 0 0 2px rgba(236, 72, 153, 0.4);
+  }
+  #inpss {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #inpotr {
+    margin-top: 17px;
+    width: 100%;
+  }
+
+
+  #billBtn ,#rechargeBtn ,#textfrom ,#botone ,#labeel{
+    font-family: 'Nunito', sans-serif;
+font-size: 16px;
+  }
+
+  #textfrom{
+    margin-right: 8px;
+  }
+
+  #phoneInput ,#inpss ,#labeel{
+    border-color: #ffffff; /* وردي مثل فئة الزر */
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3); /* ظل ناعم وردي */
+    outline: none; /* إزالة الحدود الافتراضية */
+  }
+  
+  #boxform{
+    height: 380px;
+  }
+
+  #selct ,#phoneInput{
+    width: 402px;
+    direction: rtl;
+    text-align: right;
+    margin-left: auto;
+  }
+
+  #bobox{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+
+  #boboxls{
+background-color: #000;
+    margin-top: 40px;
+  }
+
+  #billForm ,#divbox ,#boxomm ,#billBox{
+    width: 402px;
+  }
+
+  #billBox{
+    height: 200px !important;
+  }
+#finalText{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#bobox {
+    background-color: #d0e8ff; /* أزرق هادئ */
+    padding: 8px;
+    border-radius: 12px;
+    text-align: center;
+    animation: pulse 2s infinite;
+    width: 350px;
+    margin-right: 23px;
+    justify-content: center; /* توسيط أفقي */
+    align-items: center;     /* توسيط عمودي */
+  }
+
+  #boboxls {
+    color: #003366; /* أزرق غامق لقراءة أوضح */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(7, 38, 71, 0.544);
+    }
+    70% {
+      box-shadow: 0 0 10px 10px rgba(0, 123, 255, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+    }
+  }
+
+
+  #boboxs {
+    font-size: 15px; /* حجم النص */
+    font-weight: bold; /* جعل النص عريضًا */
+    color: #fff; /* لون النص */
+    text-align: center; /* محاذاة النص في المنتصف */
+    animation: blink-animation 3s infinite; /* تطبيق الوميض */
+}
+
+/* تحديد الوميض */
+@keyframes blink-animation {
+    0% {
+        opacity: 5; /* النص ظاهر */
+    }
+    50% {
+        opacity: 1; /* النص شفاف (غير ظاهر) */
+    }
+    100% {
+        opacity: 5; /* النص ظاهر مرة أخرى */
+    }
+}
+
+
+  #botonnn {
+    margin-top: 20px;
+  }
+
+  .container {
+    min-height: 100vh; /* يضمن إن ارتفاع الصفحة يغطي كل المحتوى */
+    padding-bottom: 40px; /* يضيف مساحة أسفل */
+    overflow-y: auto; /* يسمح بالتمرير لو المحتوى كثير */
+  }
+#billBox{
+
+    margin-bottom: 600px;
+}  
+
+#selct {
+    margin-right: 15px; /* يبعده عن الحافة اليمنى */
+    margin-top: 20px; /* لو تبيه ينزل شوي من فوق */
+    direction: rtl; /* لو تبيه يبدأ الكتابة من اليمين */
+    width: 370px;
+  }
+
+  #phoneInput ,#labeel ,#inpss ,#selct {
+    margin-right: 15px; /* يبعده عن الحافة اليمنى */
+    margin-top: 20px; /* لو تبيه ينزل شوي من فوق */
+    direction: rtl; /* لو تبيه يبدأ الكتابة من اليمين */
+    width: 370px;
+    border-bottom: 1px solid #6c4558 !important;
+    border-radius: 0 !important;
+
+  }
+  
+  #botooxe{
+    margin-top: 40px;
+    display: flex; 
+    justify-content: center; /* توسيط المحتوى أفقيًا */
+        align-items: center; /* توسيط المحتوى عموديًا */
+        text-align: center; /* توسيط النص داخل العنصر */
+width: 340px;
+--tw-bg-opacity: 1;
+justify-content: center; /* توسيط أفقي */
+align-items: center; 
+margin-right: 35px;
+height: 40px;
+border-radius: 10px; 
+background-color: rgba(229, 229, 229, var(--tw-bg-opacity));
+  }
+ 
+
+
+
+
+     #boxform{
+
+        margin-top: -10px;
+     }
+     #tex{
+        font-size: 29px;
+     }
+
+     #phoneInput{
+
+margin-top: -10px; 
+
+
+}
+
+#phoneLabel{
+margin-right: 10px;
+    margin-top: -10px;
+}
+
+#selct{
+    margin-top: 5px;
+}
+
+#bobox{
+    margin-top: 50px;
+    height: 50px;
+    margin-bottom: 100px;
+    width: 250px;
+    height: 25px;
+    margin-right: 70px;
+}
+
+
+#img25351{
+
+    float: left;
+    margin-left: 70px;
+    margin-top: -25px;
+}
+
+#shope{
+    float: left;
+    margin-left: 20px;
+    margin-top: -24px;
+
+}
+.vertical-line {
+    width: 1px; /* عرض الخط 1 بكسل */
+    height: 50px; /* ارتفاع الخط (يمكنك تحديده حسب الحاجة) */
+    background-color: rgb(255, 255, 255); /* اللون الأسود للخط */
+    margin: 0px; /* مسافة من حول الخط */
+    float: left;
+margin-left: 30px;
+margin-top: -35px;
+
+}
+
+.horizontal-lines {
+    width: 35px; /* يجعل الخط يمتد عبر العرض الكامل */
+    height: 1px; /* سمك الخط */
+    background-color: #fff; /* اللون الأبيض */
+    margin: 10px 0; /* مسافة بين الخطوط */
+    display: block; /* تأكد من أن العنصر يكون كتلة */
+    background-color: rgb(255, 255, 255);
+        position: relative; /* عنصر يتحرك بشكل نسبي */
+        top: 10px; /* التحرك 50px من الأعلى */
+        left: -380px; /* التحرك 50px من اليسار */
+}
+
+.horizontal-lnes{
+
+    width: 50px; /* يجعل الخط يمتد عبر العرض الكامل */
+    height: 1px; /* سمك الخط */
+    background-color: #fff; /* اللون الأبيض */
+    margin: 10px 0; /* مسافة بين الخطوط */
+    display: block; /* تأكد من أن العنصر يكون كتلة */
+    background-color: rgb(255, 255, 255);
+        position: relative; /* عنصر يتحرك بشكل نسبي */
+        top: 10px; /* التحرك 50px من الأعلى */
+        left: -380px; /* التحرك 50px من اليسار */
+}
+
+.horizontal-lins{
+    width: 35px; /* يجعل الخط يمتد عبر العرض الكامل */
+    height: 1px; /* سمك الخط */
+    background-color: #fff; /* اللون الأبيض */
+    margin: 10px 0; /* مسافة بين الخطوط */
+    display: block; /* تأكد من أن العنصر يكون كتلة */
+    background-color: rgb(255, 255, 255);
+        position: relative; /* عنصر يتحرك بشكل نسبي */
+        top: 10px; /* التحرك 50px من الأعلى */
+        left: -380px; /* التحرك 50px من اليسار */
+        font-size: 11px;
+}
+
+
+#bobox{
+
+    background-color: #1d1336;
+}
+
+#boboxs{
+
+    color: #ffffff;
+}
+
+
+.cart-icon-container{
+
+  width: 10px;
+}
+
+#iiiii{
+  width: 5px;
+}
+
+#botone {
+  position: relative;  /* تعيين الوضع النسبى للتحريك */
+  margin-left: -200px;   /* تحريك الزر إلى اليسار */
+  left: 120px;         /* تحريك الزر إلى اليمين */
+}
