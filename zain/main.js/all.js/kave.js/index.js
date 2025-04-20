@@ -203,3 +203,14 @@ if (/^9\d{7}$/.test(phone) && !isNaN(amount) && amount > 0) {
 
 rechargePhoneInput.addEventListener('input', updateRechargeBox);
 rechargeAmountInput.addEventListener('input', updateRechargeBox);
+
+
+
+
+   
+       const button = document.getElementById('bobox');
+
+button.addEventListener('click', function() {
+    // توجيه المستخدم إلى صفحة جديدة
+    window.location.href = 'form.html'; // استبدل 'newPage.html' باسم الصفحة المطلوبة
+});
